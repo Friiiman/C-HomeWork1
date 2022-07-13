@@ -83,7 +83,7 @@ void Task4(){
     number = Math.Abs(number);
     int startNumber = 1;
 
-    while(startNumber != (number + 1)){
+    while(startNumber <= number){
         if(startNumber % 2 == 0){
             Console.Write(startNumber + ",");
         }
@@ -94,7 +94,7 @@ void Task4(){
 
 }
 
-Task1();
-//Task2();
-//Task3();
-//Task4();
+// Task1();
+// Task2();
+// Task3();
+Task4();
